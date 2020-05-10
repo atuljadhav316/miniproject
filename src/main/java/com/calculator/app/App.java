@@ -1,9 +1,6 @@
 package com.calculator.app;
 import java.util.Scanner;
-/**
- * Hello world!
- *
- */
+
 public class App 
 {
     public static void main( String[] args )
@@ -37,7 +34,10 @@ public class App
 	case'/':
 		answer = num1 / num2;
 		break;
-
+	
+	case'%':
+		answer = num1 % num2;
+		break;
 
 
 	default:
