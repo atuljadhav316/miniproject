@@ -29,6 +29,11 @@ public class App
 	case'-':
 		answer = num1 - num2;
 		break;
+	
+	case'*':
+		answer = num1 * num2;
+		break;
+
 
 
 	default:
